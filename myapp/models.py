@@ -25,8 +25,8 @@ class Recipe(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
     steps = models.TextField()
-    cooking_time = models.TextField()
-    img = models.ImageField()
+    cooking_time = models.TimeField()
+    img = models.ImageField(null=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
