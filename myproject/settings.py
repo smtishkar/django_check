@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
@@ -143,7 +143,6 @@ LOGGING = {
         },
         'file': {
             'class': 'logging.FileHandler',
-            # 'filename': BASE_DIR / 'logs' / 'django.log',
             'filename':  './logs/django.log',
             'formatter': 'verbose',
         },
