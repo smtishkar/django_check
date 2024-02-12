@@ -1,0 +1,3 @@
+[INFO    :   django.utils.autoreload] - 2024-02-12 21:09:56,500 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-12 21:10:01,679 : log_message @ 0212: "GET / HTTP/1.1" 200 13
+[INFO    :             django.server] - 2024-02-12 21:10:25,925 : log_message @ 0212: "GET / HTTP/1.1" 200 13
