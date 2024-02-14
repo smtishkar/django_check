@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %} Рецепт {% endblock %}
+
+
+{% block content %}
+<h1>Один рецепт</h1> <br>
+<p>id: {{ recepies.id }}  <br>  наименование: {{ recepies.title }} <br> Описание: {{ recepies.description }} <br> Время приготовления: {{ recepies.cooking_time}} <br></p>
+<p>Этапы приготлвения: {{ recepies.steps }} <br> {{ recepies.img }} <br></p>
+<p>Автор: {{ recepies.author }} <br> Категория: {{ recepies.category }}</p>
+
+{% endblock %}

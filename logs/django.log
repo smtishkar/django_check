@@ -141,3 +141,212 @@
 [INFO    :             django.server] - 2024-02-12 22:50:31,720 : log_message @ 0212: "POST /admin/auth/user/6/change/ HTTP/1.1" 302 0
 [INFO    :             django.server] - 2024-02-12 22:50:31,764 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 14658
 [INFO    :             django.server] - 2024-02-12 22:50:31,782 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:52:18,577 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:53:52,286 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:53:53,139 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:11,966 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:12,590 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:13,878 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:14,632 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:19,009 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:19,785 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:22,127 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:23,616 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:24,976 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:25,724 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:27,036 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:27,752 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 20:54:48,200 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 20:54:56,660 : log_message @ 0212: "GET / HTTP/1.1" 200 4032
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:00:48,659 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:00:49,401 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:00:51,014 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:00:51,798 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-02-14 21:00:54,617 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 13, in index
+    return render(request, context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: render() missing 1 required positional argument: 'template_name'
+[ERROR   :             django.server] - 2024-02-14 21:00:54,622 : log_message @ 0212: "GET / HTTP/1.1" 500 75858
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:01:51,963 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:01:52,768 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:01:55,389 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:01:56,163 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:01:59,711 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:02:00,402 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:02:02,335 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:02:03,836 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:03:59,208 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:04:01,301 : log_message @ 0212: "GET / HTTP/1.1" 200 4414
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:07:52,379 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:07:53,080 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:07:57,487 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:07:58,048 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:01,593 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:02,206 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:06,784 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:07,786 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:10,189 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:10,979 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:16,537 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:17,864 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:38,966 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:39,713 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:47,216 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:47,830 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:54,381 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:08:55,180 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:07,855 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:08,579 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:10,990 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:11,704 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:13,063 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:14,222 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:15,536 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:16,194 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:18,741 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:19,483 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:23,012 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:23,630 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:24,911 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:09:25,589 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:09:37,327 : log_message @ 0212: "GET / HTTP/1.1" 200 4088
+[INFO    :             django.server] - 2024-02-14 21:09:38,030 : log_message @ 0212: "GET / HTTP/1.1" 200 4088
+[INFO    :             django.server] - 2024-02-14 21:09:38,718 : log_message @ 0212: "GET / HTTP/1.1" 200 4088
+[INFO    :             django.server] - 2024-02-14 21:09:39,471 : log_message @ 0212: "GET / HTTP/1.1" 200 4088
+[INFO    :             django.server] - 2024-02-14 21:09:40,746 : log_message @ 0212: "GET / HTTP/1.1" 200 4088
+[INFO    :             django.server] - 2024-02-14 21:09:41,020 : log_message @ 0212: "GET / HTTP/1.1" 200 4088
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:13,005 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:13,952 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:21,457 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:10:24,488 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:10:25,286 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:10:25,587 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:10:25,782 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:42,824 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:43,803 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:45,237 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:45,859 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:52,411 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:53,080 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:54,747 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:10:55,638 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:10:58,914 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:11:10,358 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:11:49,336 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:11:50,284 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:12:21,091 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:12:21,552 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:12:21,777 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :             django.server] - 2024-02-14 21:12:21,957 : log_message @ 0212: "GET / HTTP/1.1" 200 200
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:22:42,456 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:22:44,462 : log_message @ 0212: "GET / HTTP/1.1" 200 2640
+[INFO    :             django.server] - 2024-02-14 21:22:47,494 : log_message @ 0212: "GET / HTTP/1.1" 200 2546
+[INFO    :             django.server] - 2024-02-14 21:22:48,094 : log_message @ 0212: "GET / HTTP/1.1" 200 2620
+[INFO    :             django.server] - 2024-02-14 21:22:48,777 : log_message @ 0212: "GET / HTTP/1.1" 200 2443
+[INFO    :             django.server] - 2024-02-14 21:22:49,564 : log_message @ 0212: "GET / HTTP/1.1" 200 2497
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:42:59,781 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:43:00,564 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:47:58,712 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:48:19,473 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:48:35,048 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 200 171
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:49:01,637 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-02-14 21:49:04,261 : log_response @ 0241: Internal Server Error: /one_recepie/1
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 26, in one_recepie
+    return render(request, 'myapp/one_recepie.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\defaulttags.py", line 197, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Recipe' object is not iterable
+[ERROR   :             django.server] - 2024-02-14 21:49:04,298 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 500 153696
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:49:35,245 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:49:36,778 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 200 273
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:50:34,064 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:50:34,721 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:50:42,534 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:50:43,647 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:50:45,128 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:50:46,067 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:50:49,079 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 200 273
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:51:31,934 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:51:33,930 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 200 448
+[INFO    :             django.server] - 2024-02-14 21:51:39,059 : log_message @ 0212: "GET /one_recepie/2 HTTP/1.1" 200 746
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:52:30,389 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:52:32,423 : log_message @ 0212: "GET /one_recepie/2 HTTP/1.1" 200 750
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:53:18,518 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:53:20,023 : log_message @ 0212: "GET /one_recepie/2 HTTP/1.1" 200 761
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:56:36,162 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:56:37,655 : log_message @ 0212: "GET /one_recepie/2 HTTP/1.1" 200 907
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:56:53,728 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:56:54,509 : log_message @ 0212: "GET /one_recepie/2 HTTP/1.1" 200 912
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:57:11,019 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-14 21:57:11,908 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 21:57:15,488 : log_message @ 0212: "GET /one_recepie/2 HTTP/1.1" 200 898
+[INFO    :             django.server] - 2024-02-14 21:57:53,663 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 200 602
+[INFO    :             django.server] - 2024-02-14 21:57:58,269 : log_message @ 0212: "GET /one_recepie/6 HTTP/1.1" 200 909

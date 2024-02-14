@@ -19,7 +19,7 @@ class Category(models.Model):
     
     
     def __str__(self):
-        return f'Category_name: {self.name}'
+        return f'{self.name}'
 
 class Recipe(models.Model):
     title = models.CharField(max_length=100)
