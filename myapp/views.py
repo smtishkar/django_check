@@ -6,6 +6,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login, authenticate
 from .forms import LoginForm
 from django.contrib import messages
+from django.contrib.auth import logout
 # Create your views here.
 
 
@@ -67,3 +68,8 @@ def sign_in(request):
         # form is not valid or user is not authenticated
         messages.error(request,f'Invalid username or password')
         return render(request,'myapp/login.html',{'form': form})
+    
+
+def logout_view(request):
+    logout(request)
+    return redirect('login')

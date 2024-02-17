@@ -766,3 +766,143 @@ django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a val
 [INFO    :             django.server] - 2024-02-14 22:40:30,678 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
 [INFO    :             django.server] - 2024-02-14 22:40:33,187 : log_message @ 0212: "POST /login/ HTTP/1.1" 302 0
 [INFO    :             django.server] - 2024-02-14 22:40:33,232 : log_message @ 0212: "GET / HTTP/1.1" 200 2288
+[INFO    :   django.utils.autoreload] - 2024-02-14 22:42:37,532 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-14 22:42:37,955 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-14 22:42:38,724 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-14 22:42:43,786 : log_message @ 0212: "POST /login/ HTTP/1.1" 200 847
+[INFO    :             django.server] - 2024-02-14 22:43:44,767 : log_message @ 0212: "POST /login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-14 22:43:44,786 : log_message @ 0212: "GET / HTTP/1.1" 200 2809
+[INFO    :   django.utils.autoreload] - 2024-02-16 19:56:03,162 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 19:56:04,994 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 19:56:09,716 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 19:56:11,192 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 19:56:12,692 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 19:56:14,005 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 20:57:44,412 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-16 20:57:53,311 : log_message @ 0212: "GET /logout HTTP/1.1" 301 0
+[WARNING :            django.request] - 2024-02-16 20:57:53,318 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 20:57:53,319 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 20:57:53,322 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[WARNING :            django.request] - 2024-02-16 20:57:58,338 : log_response @ 0241: Not Found: /l
+[WARNING :             django.server] - 2024-02-16 20:57:58,339 : log_message @ 0212: "GET /l HTTP/1.1" 404 2955
+[INFO    :             django.server] - 2024-02-16 20:58:04,410 : log_message @ 0212: "GET / HTTP/1.1" 200 2371
+[WARNING :            django.request] - 2024-02-16 20:58:08,598 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 20:58:08,600 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 20:58:08,601 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[INFO    :             django.server] - 2024-02-16 21:00:00,094 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[WARNING :            django.request] - 2024-02-16 21:00:05,289 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 21:00:05,290 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 21:00:05,292 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:00:57,852 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myproject\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:01:00,182 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:01:37,905 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myproject\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:01:39,833 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:06,823 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:08,320 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:10,604 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:11,964 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:18,370 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:19,773 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:22,310 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:24,643 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-16 21:02:27,017 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 21:02:27,022 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 21:02:27,025 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[WARNING :            django.request] - 2024-02-16 21:02:27,688 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 21:02:27,690 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 21:02:27,691 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[WARNING :            django.request] - 2024-02-16 21:02:28,102 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 21:02:28,106 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 21:02:28,108 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[WARNING :            django.request] - 2024-02-16 21:02:28,337 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 21:02:28,340 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 21:02:28,343 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:34,265 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-16 21:02:36,341 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-16 21:02:36,784 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /logout/
+[WARNING :            django.request] - 2024-02-16 21:02:36,786 : log_response @ 0241: Method Not Allowed: /logout/
+[WARNING :             django.server] - 2024-02-16 21:02:36,788 : log_message @ 0212: "GET /logout/ HTTP/1.1" 405 0
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:23:21,795 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:23:22,844 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:24:25,910 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:24:29,724 : log_response @ 0241: Not Found: /logout/
+[WARNING :             django.server] - 2024-02-17 18:24:29,726 : log_message @ 0212: "GET /logout/ HTTP/1.1" 404 2977
+[INFO    :             django.server] - 2024-02-17 18:24:34,840 : log_message @ 0212: "GET / HTTP/1.1" 200 2629
+[WARNING :            django.request] - 2024-02-17 18:25:09,763 : log_response @ 0241: Not Found: /logout/
+[WARNING :             django.server] - 2024-02-17 18:25:09,764 : log_message @ 0212: "GET /logout/ HTTP/1.1" 404 2977
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:19,460 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:20,331 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:25:22,314 : log_response @ 0241: Not Found: /logout/
+[WARNING :             django.server] - 2024-02-17 18:25:22,315 : log_message @ 0212: "GET /logout/ HTTP/1.1" 404 2972
+[WARNING :            django.request] - 2024-02-17 18:25:24,854 : log_response @ 0241: Not Found: /logout/
+[WARNING :             django.server] - 2024-02-17 18:25:24,856 : log_message @ 0212: "GET /logout/ HTTP/1.1" 404 2972
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:43,078 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:43,825 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:46,320 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:47,280 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:54,088 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:54,798 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:56,495 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:25:57,321 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:26:00,303 : log_response @ 0241: Not Found: /logout/
+[WARNING :             django.server] - 2024-02-17 18:26:00,304 : log_message @ 0212: "GET /logout/ HTTP/1.1" 404 2977
+[WARNING :            django.request] - 2024-02-17 18:26:09,469 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:26:09,470 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2992
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:26:39,866 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:26:40,934 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:26:43,571 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:26:43,572 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2992
+[WARNING :            django.request] - 2024-02-17 18:26:46,655 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:26:46,657 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2992
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:26:57,113 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:26:58,122 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:26:59,950 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:26:59,953 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2992
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:27:05,526 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:27:09,096 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:27:09,097 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2992
+[INFO    :             django.server] - 2024-02-17 18:27:13,931 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-17 18:27:16,616 : log_message @ 0212: "POST /login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-17 18:27:16,637 : log_message @ 0212: "GET / HTTP/1.1" 200 2597
+[WARNING :            django.request] - 2024-02-17 18:27:27,049 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:27:27,050 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2992
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:27:40,418 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:27:41,233 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-17 18:27:43,898 : log_response @ 0241: Not Found: /logout_view/
+[WARNING :             django.server] - 2024-02-17 18:27:43,899 : log_message @ 0212: "GET /logout_view/ HTTP/1.1" 404 2993
+[WARNING :            django.request] - 2024-02-17 18:27:55,358 : log_response @ 0241: Not Found: /llogout/
+[WARNING :             django.server] - 2024-02-17 18:27:55,358 : log_message @ 0212: "GET /llogout/ HTTP/1.1" 404 2981
+[ERROR   :            django.request] - 2024-02-17 18:28:01,423 : log_response @ 0241: Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 75, in logout_view
+    return redirect('')
+           ^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-02-17 18:28:01,430 : log_message @ 0212: "GET /logout/ HTTP/1.1" 500 85173
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:28:17,084 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:28:21,012 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-17 18:28:24,330 : log_message @ 0212: "GET /logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-17 18:28:24,359 : log_message @ 0212: "GET / HTTP/1.1" 200 1680
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:28:37,414 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-17 18:28:38,296 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-17 18:28:43,612 : log_message @ 0212: "GET /logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-17 18:28:43,640 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-17 18:28:46,905 : log_message @ 0212: "POST /login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-17 18:28:46,939 : log_message @ 0212: "GET / HTTP/1.1" 200 3298
