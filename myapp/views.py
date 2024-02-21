@@ -25,8 +25,8 @@ def index(request):
     return render(request, 'myapp/index.html', context=context)
 
 
-def one_recepie(request, recepie_id: int):
-    recepies = Recipe.objects.filter(pk=recepie_id).first()
+def one_recipe(request, recipe_id: int):
+    recepies = Recipe.objects.filter(pk=recipe_id).first()
     print(recepies)
     context ={
         'recepies': recepies

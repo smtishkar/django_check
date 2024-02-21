@@ -3224,3 +3224,173 @@ django.template.exceptions.TemplateDoesNotExist: myapp/signup.html
 [INFO    :             django.server] - 2024-02-21 22:05:06,184 : log_message @ 0212: "GET /signup/ HTTP/1.1" 200 1872
 [INFO    :             django.server] - 2024-02-21 22:05:31,650 : log_message @ 0212: "POST /signup/ HTTP/1.1" 302 0
 [INFO    :             django.server] - 2024-02-21 22:05:31,698 : log_message @ 0212: "GET / HTTP/1.1" 200 2020
+[INFO    :             django.server] - 2024-02-21 22:07:10,687 : log_message @ 0212: "GET /new_recipe/ HTTP/1.1" 200 2223
+[INFO    :             django.server] - 2024-02-21 22:07:36,715 : log_message @ 0212: "POST /new_recipe/ HTTP/1.1" 200 2233
+[INFO    :             django.server] - 2024-02-21 22:08:21,144 : log_message @ 0212: "GET /update_recipe/16 HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-02-21 22:08:21,194 : log_message @ 0212: "GET /update_recipe/16/ HTTP/1.1" 200 2223
+[INFO    :             django.server] - 2024-02-21 22:08:45,304 : log_message @ 0212: "POST /update_recipe/16/ HTTP/1.1" 200 2237
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:02,572 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:11:08,439 : log_message @ 0212: "GET /update_recipe/16/ HTTP/1.1" 200 2225
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:25,072 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:25,145 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:26,553 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:26,566 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:28,594 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:28,626 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:29,964 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:11:29,965 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:11:37,152 : log_message @ 0212: "GET /update_recipe/16/ HTTP/1.1" 200 2234
+[INFO    :             django.server] - 2024-02-21 22:11:59,503 : log_message @ 0212: "POST /update_recipe/16/ HTTP/1.1" 200 2248
+[ERROR   :            django.request] - 2024-02-21 22:13:07,323 : log_response @ 0241: Internal Server Error: /new_recipe/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 130, in new_recipe
+    return render(request, 'myapp/new_recipe.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/new_recipe.html
+[ERROR   :             django.server] - 2024-02-21 22:13:07,332 : log_message @ 0212: "GET /new_recipe/ HTTP/1.1" 500 83040
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:13:50,023 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-02-21 22:13:53,567 : log_response @ 0241: Internal Server Error: /new_recipe/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 130, in new_recipe
+    return render(request, 'myapp/new_recipe.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/new_recipe.html
+[ERROR   :             django.server] - 2024-02-21 22:13:53,577 : log_message @ 0212: "GET /new_recipe/ HTTP/1.1" 500 83177
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:15,902 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:15,931 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:17,504 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:17,539 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-02-21 22:14:29,248 : log_response @ 0241: Internal Server Error: /new_recepie/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 130, in new_recipe
+    return render(request, 'myapp/new_recipe.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/new_recipe.html
+[ERROR   :             django.server] - 2024-02-21 22:14:29,268 : log_message @ 0212: "GET /new_recepie/ HTTP/1.1" 500 82925
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:42,321 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:42,728 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:43,633 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:43,997 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:52,023 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:52,238 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:53,685 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:14:53,783 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:16:02,042 : log_message @ 0212: "GET /new_recipe/ HTTP/1.1" 200 2232
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:09,322 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:09,575 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:10,092 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:10,384 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:13,849 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:14,433 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:14,609 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:15,259 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:19,749 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:20,059 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:20,399 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:20,776 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:22,827 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:23,443 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:40,248 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:40,598 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:40,911 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:41:41,350 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:42:00,723 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:42:04,994 : log_message @ 0212: "GET / HTTP/1.1" 200 2197
+[INFO    :             django.server] - 2024-02-21 22:42:11,460 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-21 22:42:14,491 : log_message @ 0212: "POST /login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-21 22:42:14,506 : log_message @ 0212: "GET / HTTP/1.1" 200 1287
+[INFO    :             django.server] - 2024-02-21 22:42:20,408 : log_message @ 0212: "GET /logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-21 22:42:20,422 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-21 22:42:27,509 : log_message @ 0212: "GET /signup/ HTTP/1.1" 200 1872
+[INFO    :             django.server] - 2024-02-21 22:42:40,678 : log_message @ 0212: "POST /signup/ HTTP/1.1" 200 2038
+[INFO    :             django.server] - 2024-02-21 22:43:12,706 : log_message @ 0212: "POST /signup/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-21 22:43:12,721 : log_message @ 0212: "GET / HTTP/1.1" 200 1564
+[INFO    :             django.server] - 2024-02-21 22:43:41,356 : log_message @ 0212: "GET /one_recipe/16 HTTP/1.1" 301 0
+[ERROR   :            django.request] - 2024-02-21 22:43:41,416 : log_response @ 0241: Internal Server Error: /one_recipe/16/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: one_recipe() got an unexpected keyword argument 'recipe_id'
+[ERROR   :             django.server] - 2024-02-21 22:43:41,419 : log_message @ 0212: "GET /one_recipe/16/ HTTP/1.1" 500 64162
+[ERROR   :            django.request] - 2024-02-21 22:44:17,929 : log_response @ 0241: Internal Server Error: /one_recipe/16/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: one_recipe() got an unexpected keyword argument 'recipe_id'
+[ERROR   :             django.server] - 2024-02-21 22:44:17,932 : log_message @ 0212: "GET /one_recipe/16/ HTTP/1.1" 500 64162
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:52,328 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:52,683 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:53,217 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:53,551 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:55,067 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:55,736 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:56,083 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:44:56,925 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:44:59,331 : log_message @ 0212: "GET /one_recipe/16/ HTTP/1.1" 200 492
+[INFO    :             django.server] - 2024-02-21 22:45:02,946 : log_message @ 0212: "GET /one_recipe/11 HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-02-21 22:45:02,959 : log_message @ 0212: "GET /one_recipe/11/ HTTP/1.1" 200 457
+[INFO    :             django.server] - 2024-02-21 22:45:15,522 : log_message @ 0212: "GET /new_recipe/ HTTP/1.1" 200 2270
+[INFO    :             django.server] - 2024-02-21 22:45:35,436 : log_message @ 0212: "POST /new_recipe/ HTTP/1.1" 200 2389
+[INFO    :             django.server] - 2024-02-21 22:45:55,433 : log_message @ 0212: "POST /new_recipe/ HTTP/1.1" 200 2385
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:23,431 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:23,459 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:24,237 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:24,237 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:53,864 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:53,898 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:54,693 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:46:54,706 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:47:12,081 : log_message @ 0212: "POST /new_recipe/ HTTP/1.1" 200 2282
+[INFO    :             django.server] - 2024-02-21 22:47:48,725 : log_message @ 0212: "GET /update_recipe/17 HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-02-21 22:47:48,746 : log_message @ 0212: "GET /update_recipe/17/ HTTP/1.1" 200 2272
+[INFO    :             django.server] - 2024-02-21 22:48:11,105 : log_message @ 0212: "POST /update_recipe/17/ HTTP/1.1" 200 2285

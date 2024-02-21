@@ -7,7 +7,7 @@ class LoginForm(forms.Form):
 
 
 class RecipeForm(forms.Form):
-    title = forms.CharField(label='Название ,k.lf', max_length=100)
+    title = forms.CharField(label='Название рецепта', max_length=100)
     description = forms.CharField(label='Описание')
     steps = forms.CharField(label='Шаги приготовления')
     cooking_time = forms.TimeField()
