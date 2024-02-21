@@ -3113,3 +3113,114 @@ django.template.exceptions.TemplateDoesNotExist: myapp/new_recipe.html
 [INFO    :   django.utils.autoreload] - 2024-02-21 21:54:20,864 : run_with_reloader @ 0668: Watching for file changes with StatReloader
 [INFO    :             django.server] - 2024-02-21 21:54:24,983 : log_message @ 0212: "GET /new_recipe/ HTTP/1.1" 200 2186
 [INFO    :             django.server] - 2024-02-21 21:54:52,471 : log_message @ 0212: "POST /new_recipe/ HTTP/1.1" 200 2197
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:55:54,687 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:55:56,122 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:55:59,672 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:01,669 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:04,745 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:06,276 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:15,803 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:17,388 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:33,106 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:34,459 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:40,745 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:42,235 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:51,679 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:53,664 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:56:59,365 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:00,834 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:07,000 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:08,614 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:17,696 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:19,311 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:39,713 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:41,200 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:46,364 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:57:47,986 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:58:16,930 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-02-21 21:58:31,629 : log_response @ 0241: Not Found: /index
+[WARNING :             django.server] - 2024-02-21 21:58:31,631 : log_message @ 0212: "GET /index HTTP/1.1" 404 3354
+[INFO    :             django.server] - 2024-02-21 21:58:36,008 : log_message @ 0212: "GET / HTTP/1.1" 200 1538
+[ERROR   :            django.request] - 2024-02-21 21:58:51,314 : log_response @ 0241: Internal Server Error: /signup
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 49, in registration
+    return render(request, 'myapp/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/signup.html
+[ERROR   :             django.server] - 2024-02-21 21:58:51,325 : log_message @ 0212: "GET /signup HTTP/1.1" 500 83250
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:59:08,762 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:59:09,340 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:59:10,248 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 21:59:10,584 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 21:59:11,366 : log_message @ 0212: "GET /signup HTTP/1.1" 301 0
+[ERROR   :            django.request] - 2024-02-21 21:59:11,454 : log_response @ 0241: Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 49, in registration
+    return render(request, 'myapp/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/signup.html
+[ERROR   :             django.server] - 2024-02-21 21:59:11,463 : log_message @ 0212: "GET /signup/ HTTP/1.1" 500 83272
+[INFO    :             django.server] - 2024-02-21 21:59:32,124 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :             django.server] - 2024-02-21 21:59:36,319 : log_message @ 0212: "POST /login/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-21 21:59:36,365 : log_message @ 0212: "GET / HTTP/1.1" 200 1257
+[INFO    :             django.server] - 2024-02-21 21:59:46,873 : log_message @ 0212: "GET /logout/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-21 21:59:46,888 : log_message @ 0212: "GET /login/ HTTP/1.1" 200 664
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:00:04,874 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:00:05,483 : trigger_reload @ 0266: C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:00:06,371 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:00:06,987 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:00:13,009 : log_message @ 0212: "GET /one_recepie/1 HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-02-21 22:00:13,067 : log_message @ 0212: "GET /one_recepie/1/ HTTP/1.1" 200 470
+[ERROR   :            django.request] - 2024-02-21 22:00:35,275 : log_response @ 0241: Internal Server Error: /signup/
+Traceback (most recent call last):
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\myproject\myapp\views.py", line 49, in registration
+    return render(request, 'myapp/signup.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IT\GeekBrains\Django\assessment\project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/signup.html
+[ERROR   :             django.server] - 2024-02-21 22:00:35,291 : log_message @ 0212: "GET /signup/ HTTP/1.1" 500 82998
+[INFO    :   django.utils.autoreload] - 2024-02-21 22:05:01,662 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-02-21 22:05:06,184 : log_message @ 0212: "GET /signup/ HTTP/1.1" 200 1872
+[INFO    :             django.server] - 2024-02-21 22:05:31,650 : log_message @ 0212: "POST /signup/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-02-21 22:05:31,698 : log_message @ 0212: "GET / HTTP/1.1" 200 2020

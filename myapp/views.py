@@ -63,11 +63,8 @@ def sign_in(request):
             user = authenticate(request,username=username,password=password)
             if user:
                 login(request, user)
-                # messages.success(request,f'Hi, welcome back!')
                 messages.success(request,f'Hi {username.title()}, welcome back!')
                 return redirect('/')
-        
-        # form is not valid or user is not authenticated
         messages.error(request,f'Invalid username or password')
         return render(request,'myapp/login.html',{'form': form})
     
@@ -77,34 +74,6 @@ def logout_view(request):
     return redirect('login')
 
 
-# def update_recipe(request, recipe_id):
-#     recipe = get_object_or_404(Recipe, pk=recipe_id)
-#     message = 'Ошибка данных'
-#     if request.method == 'POST':
-#         form = RecipeForm(request.POST, request.FILES)
-#         if form.is_valid():
-
-#             recipe.title = request.POST['title']
-#             recipe.description = request.POST['description']
-#             recipe.steps = request.POST['steps']
-#             img = request.FILES["img"]
-#             fs = FileSystemStorage()
-#             fs.save(img.name, img)
-#             recipe.img = img.name
-
-#             recipe.category = request.POST['category']
-
-#             recipe.save()
-#             message = 'Рецепт изменен'
-#     else:
-#         form = RecipeForm()
-#         message = 'Заполните форму создания рецепта'
-#     context = {
-#         "form": form,
-#         "message": message
-#     }
-#     # return render(request, 'myapp/update_recepie.html', {'form': form, 'message': message})
-#     return render(request, "myapp/update_recepie.html", context=context)
 
 
 def update_recipe(request, recipe_id):
@@ -113,7 +82,6 @@ def update_recipe(request, recipe_id):
         form = RecipeForm(request.POST, request.FILES)
         if form.is_valid():
             recipe = Recipe.objects.filter(pk=recipe_id).first()
-            print(recipe.pk)
             title = form.cleaned_data['title']
             description = form.cleaned_data['description']
             steps = form.cleaned_data['steps']
@@ -130,16 +98,7 @@ def update_recipe(request, recipe_id):
             recipe.cooking_time = cooking_time
             recipe.category = category
             recipe.author = author
-            # recipe = Recipe(title=title, description=description, steps=steps, cooking_time=cooking_time,
-            #                  category=category, author=author, img=img)
-            # recipe.save(update_fields=["title",'description', 'steps', 'cooking_time', 'category', 'author','img'])
-            # recipe = Recipe.objects.filter(recipe_id).update(title=title, description=description, steps=steps, cooking_time=cooking_time,
-            #                  category=category, author=author, img=img)
-            # recipe.update(title=title)
-            # recipe.save(update_fields=['title', 'description', 'steps', 'cooking_time', 'category', 'author','img'])
             recipe.save()
-            # recipe.save(update_fields=["title"])
-            print(recipe.pk, recipe.title)
             message = 'Рецепт изменен'
     else:
         form = RecipeForm()
@@ -152,34 +111,18 @@ def new_recipe(request):
     if request.method == 'POST':
         form = RecipeForm(request.POST, request.FILES)
         if form.is_valid():
-            # recipe = Recipe.objects.filter(pk=recipe_id).first()
-            # print(recipe.pk)
             title = form.cleaned_data['title']
             description = form.cleaned_data['description']
             steps = form.cleaned_data['steps']
             cooking_time = form.cleaned_data['cooking_time']
             img = form.cleaned_data['img']
             fs = FileSystemStorage()
-            # recipe.img = img
             fs.save(img.name, img)
             category = form.cleaned_data['category']
             author = form.cleaned_data['author']
-            # recipe.title = title
-            # recipe.description = description
-            # recipe.steps = steps
-            # recipe.cooking_time = cooking_time
-            # recipe.category = category
-            # recipe.author = author
             recipe = Recipe(title=title, description=description, steps=steps, cooking_time=cooking_time,
                              category=category, author=author, img=img)
-            # recipe.save(update_fields=["title",'description', 'steps', 'cooking_time', 'category', 'author','img'])
-            # recipe = Recipe.objects.filter(recipe_id).update(title=title, description=description, steps=steps, cooking_time=cooking_time,
-            #                  category=category, author=author, img=img)
-            # recipe.update(title=title)
-            # recipe.save(update_fields=['title', 'description', 'steps', 'cooking_time', 'category', 'author','img'])
             recipe.save()
-            # recipe.save(update_fields=["title"])
-            print(recipe.pk, recipe.title)
             message = 'Рецепт создан'
     else:
         form = RecipeForm()
